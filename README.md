@@ -1,4 +1,4 @@
-# Jonah Marketing Site
+# Little Heroes Daycare
 ## Setup Instructions
 * run npm install
 * run npm start
