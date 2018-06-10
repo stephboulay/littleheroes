@@ -1,4 +1,67 @@
-body {
+main {
 	background: url(../images/main-bg.png);
 }
-.about
+
+h2 {
+	font-family: 'Chalkboard', cursive, bold;
+	color: #e31d1a;
+}
+
+h3 {
+	font-family: 'Chalkboard', cursive, bold;
+	color: #e31d1a;
+}
+
+h4 {
+	font-family: 'Chalkboard', cursive, bold;
+	color: #e31d1a;
+}
+
+.container .about {
+	border-radius: 8px;
+	padding: 20px;
+	margin: 20px;
+	background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(111,210,255,1) 100%);
+}
+
+.about img {
+	width: 100%;
+}
+
+.container .jumbotron {
+	padding: 0;
+	margin: 60px 20px 20px 20px;
+}
+
+.jumbotron img {
+	width: 100%;
+}
+
+.container .pictures {
+	border-radius: 8px;
+	padding: 20px;
+	margin: 20px;
+	background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(111,210,255,1) 100%);
+}
+
+.pictures img {
+	width: 100%
+}
+
+.container .calendar {
+	border-radius: 8px;
+	padding: 20px;
+	margin: 20px;
+	background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(111,210,255,1) 100%);
+}
+
+.calendar img {
+	width: 100%;
+}
+
+body {
+background: rgb(30,70,142);
+background: linear-gradient(0deg, rgba(30,70,142,1) 0%, rgba(79,199,254,1) 100%);}
