@@ -4,14 +4,15 @@
   "description": "* run npm install * run npm start * use npm build for distrobution to prod environment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "start": "parcel index.html",
+  "build": "parcel build index.html --public-url ./"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stephboulay/littleheroes.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Stephanie Boulay",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/stephboulay/littleheroes/issues"
